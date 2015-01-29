@@ -1,0 +1,16 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.1.+'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
